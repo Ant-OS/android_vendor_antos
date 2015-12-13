@@ -1,0 +1,7 @@
+#!/system/bin/sh
+#
+# Print startup info
+#
+L="log -p i -t ant"
+
+$L "Welcome to Android `getprop ro.build.version.release` / Ant-OS-`getprop ro.ant.version`";
