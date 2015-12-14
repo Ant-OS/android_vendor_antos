@@ -243,7 +243,7 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.ota.romname=$(ANT_VERSION) \
   ro.ota.version=$(shell date -u +%d%m%Y) \
-  ro.ota.manifest=https:leonevorom.co.nf/ota/shamu/shamu.xml
+  ro.ota.manifest=https://leonevorom.co.nf/ota/shamu/shamu.xml
 
 # CyanogenMod Platform SDK Version
 PRODUCT_PROPERTY_OVERRIDES += \
